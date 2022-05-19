@@ -8,6 +8,10 @@ server:
     include-binding-errors: always
   max-http-header-size: 2MB
   shutdown: graceful
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    time-zone: Asia/Jakarta
 application:
   name: sibyl
   deskripsi: Application Control and Information Center
