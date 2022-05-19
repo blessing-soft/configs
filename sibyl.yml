@@ -14,7 +14,7 @@ spring:
     time-zone: Asia/Jakarta
   data:
     mongodb:
-      database: '{chiper}d405f733216d006d1b1087e49b843e096ab8a539c140c6b660004ad90ea8e277'
+      database: "{cipher}d405f733216d006d1b1087e49b843e096ab8a539c140c6b660004ad90ea8e277"
 application:
   name: sibyl
   deskripsi: Application Control and Information Center
