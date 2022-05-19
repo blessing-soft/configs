@@ -1,3 +1,13 @@
+server:
+  port: 80
+  http2:
+    enabled: true
+  error:
+    include-exception: true
+    include-stacktrace: always
+    include-binding-errors: always
+  max-http-header-size: 2MB
+  shutdown: graceful
 application:
   name: sibyl
   deskripsi: Application Control and Information Center
