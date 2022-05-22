@@ -15,8 +15,13 @@ spring:
   jackson:
     default-property-inclusion: non_null
     time-zone: Asia/Jakarta
+  security:
+    user:
+      name: "{cipher}d367aa9004956c6b30fb6531f0a52f337fb1fa5f84d6166f853bd860b427f19e"
+      password: "{cipher}f0d0342e522e8bbbb6612dfa12e9fe2097859bb67b2274b76ae2b6657631b8cd"
   data:
     mongodb:
+      field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
       database: "{cipher}d405f733216d006d1b1087e49b843e096ab8a539c140c6b660004ad90ea8e277"
       uri: "{cipher}eae9bbaa31b0867f419d5cc2905fb97ef9f579b1671d2bfa91d612d590d0e67887b94d7d5188b611b3594f9a42ec333e7cf008b821e0800e91b1031f8a69fcd3a8cb41d00703bf6a893e2c54bec36d106b8d3c844fb994802fc16002514cc268231c1a9e874f9ae582ae2e28102af404"
 eureka:
