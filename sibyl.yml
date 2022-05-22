@@ -22,6 +22,7 @@ spring:
 eureka:
   instance:
     status-page-url-path: /actuator/health
+    hostname: sibyl-blessingsoft.herokuapp.com
   client:
     register-with-eureka: true
     fetch-registry: true
