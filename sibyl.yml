@@ -21,8 +21,8 @@ spring:
       uri: "{cipher}eae9bbaa31b0867f419d5cc2905fb97ef9f579b1671d2bfa91d612d590d0e67887b94d7d5188b611b3594f9a42ec333e7cf008b821e0800e91b1031f8a69fcd3a8cb41d00703bf6a893e2c54bec36d106b8d3c844fb994802fc16002514cc268231c1a9e874f9ae582ae2e28102af404"
 eureka:
   instance:
-    status-page-url-path: https://sibyl-blessingsoft.herokuapp.com/actuator/health
-    hostname: sibyl-blessingsoft.herokuapp.com
+    status-page-url-path: "{cipher}f95a6c52b78cfc371f6e439e30f72dd8529749632757807f2f6fae5255eab666c05540b6c93afa6e7576621a7a7148a4cf559affc3dc3065dfd077fc4cdb5216cc463742b70ecdcb7a7e3f5f7bf21e74"
+    hostname: "{cipher}d208d984c0343f6edda3dab4b6f5f62fcf844627d776dddb2a6433edf978e22f513511d0b5b0f3700f86df802214addf438f540d5aab940782ece0fd504bddb5"
     non-secure-port: 80
     instance-id: sibyl
   client:
