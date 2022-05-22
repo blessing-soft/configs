@@ -27,35 +27,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: "{cipher}server:
-  port: 80
-  http2:
-    enabled: true
-  error:
-    include-exception: true
-    include-stacktrace: always
-    include-binding-errors: always
-  max-http-header-size: 2MB
-  shutdown: graceful
-spring:
-  application:
-    name: sibyl
-    deskripsi: Application Control and Information Center
-  jackson:
-    default-property-inclusion: non_null
-    time-zone: Asia/Jakarta
-  data:
-    mongodb:
-      database: "{cipher}d405f733216d006d1b1087e49b843e096ab8a539c140c6b660004ad90ea8e277"
-      uri: "{cipher}eae9bbaa31b0867f419d5cc2905fb97ef9f579b1671d2bfa91d612d590d0e67887b94d7d5188b611b3594f9a42ec333e7cf008b821e0800e91b1031f8a69fcd3a8cb41d00703bf6a893e2c54bec36d106b8d3c844fb994802fc16002514cc268231c1a9e874f9ae582ae2e28102af404"
-eureka:
-  instance:
-    prefer-ip-address: true
-    status-page-url-path: /actuator/health
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: "{cipher}81972c544ae8e5a6ae11679263bfd51ea8ad9a9fc525be48622f0b49cdae56934e6f792c53c7fb076c8945f324f20ffbfbd9c03d3c279d1be22cb9f9b122b0a14d13fa8cdde1b46e8bbe663e782fb86d"     
-
-  
+      defaultZone: "{cipher}aba7020d90eaf44e94a69cbe03fabca3224ff2e999e5f084bfeb126c76f370a0c9c5374b2e8ce488844458cfb64c4cb11ed8cb7f97d763aa36d5879a60291a274d6b0b11f89c8fb26002e85ef6d083ebce71e09f309f465ec7108294efbe6d54"
